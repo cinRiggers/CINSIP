@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CINSIP"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.1.230816"
   spec.summary      = "SIP framework for call."
 
   spec.description  = <<-DESC
