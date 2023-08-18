@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CINSIP"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "SIP framework for call."
 
   spec.description  = <<-DESC
@@ -18,8 +18,8 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.pod_target_xcconfig =   {'ENABLE_BITCODE' => 'NO'} 
   
-  spec.dependency 'CINRTC','~>1.0.0'
-  spec.dependency 'CINWebRTC','~>1.0.0'
+  spec.dependency 'CINRTC','~>1.0.1'
+  spec.dependency 'CINWebRTC','~>1.0.1'
   
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.vendored_frameworks = 'Framework/CINSIP.framework' 
